@@ -151,6 +151,14 @@ UPROGS=\
 	$U/_zombie\
 	$U/_sleep\
 	$U/_copy\
+	$U/_open\
+	$U/_fork\
+	$U/_exec\
+	$U/_forkexec\
+	$U/_redirect\
+
+
+
 
 ifeq ($(LAB),syscall)
 UPROGS += \
